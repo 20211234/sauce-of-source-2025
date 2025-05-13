@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.sos-root {
+  width: 900px;
+  margin: 40px auto;
+}
+.sos-logo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.sos-logo {
+  height: 80px;
+}
+.sos-caption {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.product-table {
+  width: 100%;
+  margin-bottom: 40px;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+}
+.product-table th,
+.product-table td {
+  font-size: 0.93rem;
+  text-align: center;
+  padding: 8px 14px;
+  background: #fff;
+}
+.product-table th {
+  font-weight: bold;
+  background: #f8f8f8;
+  border-bottom: 1px solid #ccc;
+}
+.product-table td {
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+}
+.product-table th:not(:last-child),
+.product-table td:not(:last-child) {
+  border-right: 1px solid #ccc;
+}
+.product-table tr:last-child td {
+  border-bottom: none;
+}
+.sos-ui-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+.sos-ui-box {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+.sos-ui-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: left;
+  margin-top: 0;
+}
+.sos-input,
+.MuiInputBase-input {
+  font-size: 0.93rem !important;
+  padding-top: 5px !important;
+  padding-bottom: 6px !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+.sos-btn {
+  background-color: #b10000 !important;
+  color: #fff !important;
+  font-weight: 600 !important;
+  font-size: 0.95rem !important;
+  transition: background 0.2s;
+}
+.sos-btn:hover {
+  background-color: #400000 !important;
+  color: #fff !important;
+}
+
+.sos-footer {
+  width: 100%;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #888;
+  margin-top: 48px;
+  padding: 18px 0 12px 0;
+  background: none;
+  letter-spacing: 0.01em;
+}
